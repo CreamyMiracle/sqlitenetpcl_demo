@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SQLiteDemo.Models
+namespace Common.Models
 {
     public class ChildObject
     {

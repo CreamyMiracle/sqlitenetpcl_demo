@@ -1,8 +1,8 @@
 ﻿using SQLite;
-using SQLiteDemo.Models;
 using System;
 using System.IO;
 using SQLiteNetExtensions.Extensions;
+using Common.Models;
 
 namespace SQLiteDemo
 {

@@ -676,6 +676,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SQLiteNetExtensions": "2.1.0",
+          "sqlite-net-pcl": "1.7.335"
+        },
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
       }
     }
   },
@@ -2908,10 +2922,16 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Common >= 1.0.0",
       "SQLiteNetExtensions >= 2.1.0",
       "sqlite-net-pcl >= 1.7.335"
     ]
@@ -2942,7 +2962,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\PrivateDev\\sqlitenetpcl_demo\\SQLiteDemo\\Common\\Common.csproj": {
+              "projectPath": "D:\\PrivateDev\\sqlitenetpcl_demo\\SQLiteDemo\\Common\\Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteDemo", "SQLiteDemo\SQLiteDemo.csproj", "{C6CCFBA6-469C-44A2-B774-A781712963B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkavacheDemo", "AkavacheDemo\AkavacheDemo.csproj", "{6F43B96B-1F4A-45CC-A25A-E8044AC3A882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{4CE2B400-1A3C-40CA-BCFA-EDA615C73510}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C6CCFBA6-469C-44A2-B774-A781712963B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6CCFBA6-469C-44A2-B774-A781712963B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6CCFBA6-469C-44A2-B774-A781712963B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F43B96B-1F4A-45CC-A25A-E8044AC3A882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F43B96B-1F4A-45CC-A25A-E8044AC3A882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F43B96B-1F4A-45CC-A25A-E8044AC3A882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F43B96B-1F4A-45CC-A25A-E8044AC3A882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE2B400-1A3C-40CA-BCFA-EDA615C73510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE2B400-1A3C-40CA-BCFA-EDA615C73510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE2B400-1A3C-40CA-BCFA-EDA615C73510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE2B400-1A3C-40CA-BCFA-EDA615C73510}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
