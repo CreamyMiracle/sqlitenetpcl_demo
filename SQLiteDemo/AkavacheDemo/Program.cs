@@ -17,7 +17,7 @@ namespace AkavacheDemo
 
         private static async Task Demo()
         {
-            // Models
+            #region Create cached objects
             ParentObject parent1 = new ParentObject() { Name = "PARENT_1_LOCAL" };
 
             ChildObject child1 = new ChildObject() { Name = "CHILD_1_LOCAL" };
@@ -25,6 +25,7 @@ namespace AkavacheDemo
 
             parent1.Children.Add(child1);
             parent1.Children.Add(child2);
+            #endregion
 
             Console.WriteLine("INSERT: Press any key to write objects to local database with 5 seconds expiration");
             Console.ReadKey();
@@ -42,6 +43,9 @@ namespace AkavacheDemo
 
         private static async Task<ParentObject> SimulateAPICall()
         {
+            // This method may fetch the data from e.g. REST API or a local database
+            // For now this method is just simulating such scenario with 1000 ms delay
+
             await Task.Run(() => Thread.Sleep(1000));
             ParentObject parent1 = new ParentObject() { Name = "PARENT_1_FROM_SERVER" };
 
